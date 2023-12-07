@@ -38,12 +38,70 @@ const log = console.log()
 //     console.log(minNumber([8,5,6,1]));
 
 // тоже самое с спредом
-function minNumber (arr){
-return Math.min(...arr)
-    }
-console.log(minNumber([8,5,6,1]));
+// function minNumber (arr){
+// return Math.min(...arr)
+//     }
+// console.log(minNumber([8,5,6,1]));
 
 // Напишите функцию, которая принимает массив слов, объединяет их в предложение и возвращает это предложение. 
 // следует добавлять пробелы между каждым словом. 
 // ни в начале, ни в конце предложения не должно быть пробела!
 
+// function wordsArr (arr){
+//     return arr.join(' ')
+// }
+// console.log(wordsArr(['hello', 'world', 'this', 'is', 'great']));
+
+// создать функцию ( maxи min, или maximumи и minimumт. д., в зависимости от языка), 
+// которые получают на вход список целых чисел и возвращают наибольшее и наименьшее число в этом списке соответственно.
+
+// function minMax(arr) {
+//     const min = Math.min(...arr)
+//     const max = Math.max(...arr)
+//     return `max = ${max}, min = ${min}`
+// }
+
+// console.log(minMax ([4,6,2,1,9,63,-134,566]));
+
+// Умножение заданного числа на восемь, если оно четное, и на девять в противном случае.
+// function simpleMultiplication(number) {
+//     if (number % 2 === 0)
+//     return number * 8
+//     else
+//     return number * 9
+// }
+// console.log(simpleMultiplication(3));
+
+// Вернуть из числа строку
+// const numberToString = (num) => num.ToString
+
+// console.log(numberToString(3));
+
+// const hello = (n) => `Hello, ${n} how are you doing today?`
+// console.log(hello('vova'));
+
+
+// Суммируйте все числа данного массива ( cq. list ), 
+// кроме самого высокого и самого низкого элемента (по значению, а не по индексу!).
+
+// function sumArray(array) {
+// const minNumber = Math.min(...array)
+// const maxNumber = Math.max(...array)
+// const sumAll = array.reduce ((accumulator, current) =>
+//     accumulator + current, 0)
+// return sumAll - (maxNumber + minNumber)
+// }
+//  console.log(sumArray([1, 1, 11, 11, 2, 3]));
+
+// Возьмите массив и удалите из него каждый второй элемент. 
+// Всегда сохраняйте первый элемент и начинайте удаление со следующего элемента.
+
+function removeEveryOther(arr){
+   //  return arr.filter 
+arr.forEach(function(item, index){
+if (index > 0 && index % 2 === 0){
+   
+}
+})
+}
+  console.log (removeEveryOther(["Keep", "Remove", "Keep", "Remove"]))
