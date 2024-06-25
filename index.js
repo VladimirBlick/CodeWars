@@ -96,12 +96,32 @@ const log = console.log()
 // Возьмите массив и удалите из него каждый второй элемент. 
 // Всегда сохраняйте первый элемент и начинайте удаление со следующего элемента.
 
-function removeEveryOther(arr){
-   //  return arr.filter 
-arr.forEach(function(item, index){
-if (index > 0 && index % 2 === 0){
+// function removeEveryOther(arr){
+//    //  return arr.filter 
+// arr.forEach(function(item, index){
+// if (index > 0 && index % 2 === 0){
    
-}
-})
-}
-  console.log (removeEveryOther(["Keep", "Remove", "Keep", "Remove"]))
+// }
+// })
+// }
+//   console.log (removeEveryOther(["Keep", "Remove", "Keep", "Remove"]))
+// const age = 20
+
+// function isPensioner(age)  {
+// return age >= 75
+// }
+
+// // console.log(isPensioner());
+// const stroke = 'Mister'
+// function isMister(str){
+//     return str === 'Mister'
+// }
+// console.log(isMister(stroke));
+
+// Реализуйте функцию, которая проверяет формат указанного телефона. Если телефон начинается с +, значит это международный формат.
+
+// const number = '235'
+// function isInternationalPhone (phoneNumber){
+// return phoneNumber[0] === '+'
+// }
+// console.log(isInternationalPhone('+123'));
