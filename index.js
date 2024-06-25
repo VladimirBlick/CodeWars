@@ -125,3 +125,5 @@ const log = console.log()
 // return phoneNumber[0] === '+'
 // }
 // console.log(isInternationalPhone('+123'));
+
+const newTask = "new commit for git"
